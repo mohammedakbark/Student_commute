@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26393283659",
+    "project_id": "student-commute-139f2",
+    "storage_bucket": "student-commute-139f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26393283659:android:9cca115db1b1fee07e11ce",
+        "android_client_info": {
+          "package_name": "com.example.student_commute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ZxYt3F2KunNDFsQjeAXE0xUjc2YKlr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
