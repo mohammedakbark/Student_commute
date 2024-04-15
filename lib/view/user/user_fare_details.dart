@@ -68,7 +68,7 @@ class UserFareDetails extends StatelessWidget {
               dataRowMinHeight: 25,
               dataRowMaxHeight: 30,
 
-              border: TableBorder.all(color: WHITE),
+              border: TableBorder.all(),
               // showBottomBorder: true,
               decoration: BoxDecoration(),
               // border: TableBorder.all(),
