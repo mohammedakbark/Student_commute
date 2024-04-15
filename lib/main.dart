@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: DEFAULT_BLUE_DARK),
             useMaterial3: true,
           ),
-          home: BusBottomNavigationBar()),
+          home: SpalshScreen  ()),
     );
   }
 }

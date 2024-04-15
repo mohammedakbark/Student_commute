@@ -35,27 +35,27 @@ class UserLogin extends StatelessWidget {
               const SizedBox(
                 height: 50,
               ),
-              Text(
-                'Email/Phone',
-                style: GoogleFonts.poppins(),
-              ),
-              TextFormField(
-                controller: loginController.loginEmailController,
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return "*required field";
-                  } else {
-                    return null;
-                  }
-                },
-                decoration: const InputDecoration(
-                  isDense: true,
-                  border: OutlineInputBorder(),
+                Text(
+                  'Email/Phone',
+                  style: GoogleFonts.poppins(),
                 ),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
+                TextFormField(
+                  controller: loginController.loginEmailController,
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return "*required field";
+                    } else {
+                      return null;
+                    }
+                  },
+                  decoration: const InputDecoration(
+                    isDense: true,
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
               Text(
                 'Password',
                 style: GoogleFonts.poppins(),
